@@ -1,0 +1,104 @@
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+BODY
+{
+	BACKGROUND: -WEBKIT-LINEAR-GRADIENT(ORANGE,WHITE);
+	BACKGROUND-REPEAT:NO-REPEAT;
+}
+#WRAPPER
+{
+	WIDTH:100%;
+	POSITION:RELATIVE;
+	/*HEIGHT:220PX;
+	LINE-HEIGHT:120PX;*/
+	MARGIN:1EM AUTO;
+	OVERFLOW:HIDDEN;
+}
+DIV.MARQUEE
+{
+	POSITION:RELATIVE;
+	WIDTH:20EM;
+	TEXT-ALIGN:CENTER;
+	ANIMATION-NAME:MARQUEE;
+	ANIMATION-DURATION:3S;
+	ANIMATION-TIMING-FUNCTION:LINEAR;
+	ANIMATION-ITERATION-COUNT:1;
+	ANIMATION-DIRECTION:ALTERNATE;
+}
+P
+{
+	MARGIN: 0;
+}
+@KEYFRAMES MARQUEE{
+	
+	FROM{
+		LEFT:100%;
+	}
+	TO{
+		LEFT:-7EM;
+	}
+}
+IMG.HOME{
+	position: absolute;
+    left: 0px;
+    top: 5%;
+    z-index: -1;
+}
+IMG.LOGO{
+	position: absolute;
+    RIGHT: 0px;
+    top: 5%;
+    z-index: -1;
+}
+IMG.SHOW{
+	position: RELATIVE;
+    RIGHT:50PX;
+    top: 54%;
+    /*z-index: -1;*/
+	border: 10px OUTSET RED;
+}
+P.PARTS
+{
+	POSITION:RELATIVE;
+	float: left;
+    margin: 5px;
+    padding: 15px;
+    /*width: 300px;
+    height: 300px;*/
+    border: 10px OUTSET GREY;
+
+}
+P.SHOW
+{
+	POSITION:ABSOLUTE;
+	float: CENTER;
+	LEFT:25%;
+    margin: 5px;
+    padding: 15px;
+    /*width: 300px;
+    height: 300px;*/
+}
+P.HEAD
+{
+	POSITION:RELATIVE;
+	FLOAT:LEFT;
+	MARGIN:20PX;
+	TEXT-DECORATION:UNDERLINE;
+}
+A:LINK
+{
+	TEXT-DECORATION: NONE;
+}
+A:VISITED
+{
+	TEST-DECORATION: NONE;
+	COLOR: #FF0000;
+}
+A:HOVER
+{
+	COLOR: #0000FF;
+	TEXT-DECORATION: UNDERLINE;
+	text-shadow:4px 4px 8px blue;
+	FONT-SIZE:150%;
+}

@@ -1,0 +1,82 @@
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+BODY
+{
+	BACKGROUND-COLOR:#FCCDE2;
+}
+#CONTAINER
+{
+	WIDTH:1000PX;
+	MARGIN-LEFT:AUTO;
+	MARGIN-RIGHT:AUTO;
+	BACKGROUND-COLOR:#F92300;
+}	
+HEADER
+{
+	WIDTH:1000PX;
+	TEXT-ALIGN:CENTER;
+	BACKGROUND-COLOR:#F413F5;
+	BORDER-TOP-LEFT-RADIUS:10PX;
+	BORDER-TOP-RIGHT-RADIUS:10PX;
+}
+FOOTER
+{
+	WIDTH:1000PX;
+	TEXT-ALIGN:CENTER;
+	BACKGROUND-COLOR:#F413F5;
+	BORDER-BOTTOM-LEFT-RADIUS:10PX;
+	BORDER-BOTTOM-RIGHT-RADIUS:10PX;
+	CLEAR:BOTH;
+}
+P
+{
+	MARGIN: 0;
+}
+#CONTENT
+{
+	WIDTH:1000PX;
+	MARGIN-LEFT:AUTO;
+	MARGIN-RIGHT:AUTO;
+}
+#CONTENT UL
+{
+	LIST-STYLE-TYPE:NONE;
+}
+#CONTENT LI
+{
+	FLOAT:RIGHT;
+	WIDTH:100PX;
+	DISPLAY:BLOCK;
+	MARGIN-RIGHT:40PX;
+	MARGIN-BOTTOM:10PX;
+}
+#CONTENT IMG
+{
+	-webkit-webkit-transition:all ls ease;
+	-moz-webkit-transition:all ls ease;
+	-ms-webkit-transition:all ls ease;
+	-o-webkit-transition:all ls ease;
+	transition:all ls ease;
+	filter:blur(3px);
+	-webkit-filter:blur(0px);
+	-moz-filter:blur(0px);
+	-ms-filter:blur(0px);
+	-o-filter:blur(0px);
+}
+#CONTENT IMG:hover
+{
+	-webkit-webkit-transition:all ls ease;
+	-moz-webkit-transition:all ls ease;
+	-ms-webkit-transition:all ls ease;
+	-o-webkit-transition:all ls ease;
+	transition:all ls ease;
+	filter:blur(0px);
+	-webkit-filter:blur(0px);
+	-moz-filter:blur(0px);
+	-ms-filter:blur(0px);
+	-o-filter:blur(0px);
+	transform:translatez(25px) rotate(10deg);
+	box-shadow:10px 10px 10px rgba(0,0,0,.5);
+}
+	
+}
